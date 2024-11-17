@@ -24,7 +24,7 @@ def clear_data_folder(folder_path):
 
 
 # File uploader
-uploaded_file = st.file_uploader("Upload a CSV file:", type=["csv"])
+uploaded_file = st.file_uploader("Upload a CSV file (we have provided a sample file in data/sample_data.csv):", type=["csv"])
 
 if uploaded_file is not None:
     # Clear the "data" folder
